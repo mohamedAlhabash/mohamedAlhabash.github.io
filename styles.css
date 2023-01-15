@@ -1,0 +1,75 @@
+body {
+    background-color: beige;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.item {
+    max-width: 60%;
+    background-color: rgb(176, 176, 169);
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+}
+
+.element p {
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+
+}
+
+.contact {
+    text-align: left;
+    width: 100px;
+    padding-left: 200px;
+}
+
+.info {
+    text-align: right;
+    /* width: 10; */
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+.solid {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: dashed;
+    margin-bottom: 50px;
+    display: flex;
+    display: block;
+    padding: 10px;
+}
+
+hr {
+    height: 2px;
+    background-color: rgba(13, 40, 139, 0.385);
+    border-color: rgba(13, 40, 139, 0.385);
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: blue;
+}
